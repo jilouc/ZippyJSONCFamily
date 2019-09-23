@@ -27,6 +27,8 @@ This is a library meant only to support ZippyJSON and provide a workaround for a
 
   s.ios.deployment_target = '11.0'
   s.osx.deployment_target = '10.13'
+  s.watchos.deployment_target = '4.0'
+
   s.library = 'c++'
   s.pod_target_xcconfig = {
     'CLANG_X86_VECTOR_INSTRUCTIONS' => 'avx',
